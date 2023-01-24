@@ -1,10 +1,12 @@
 package main
 
 import ( 
-	"fmt"
-	"./greeting"
+	"github.com/fatih/color"
 )
 
 func main() {
-	fmt.Println(greeting.Hello())
+	color.Cyan("Cyan")
+	color.Blue("Blue")
+	color.Red("Red")
+	color.Magenta("Magenta")
 }
